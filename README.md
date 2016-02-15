@@ -2,7 +2,7 @@
 
 # ImageBuf
 
-
+ImageBug accepts images from an external repository (e.g., amazon S3), caches it locally (both on hard drive and in memory), and serves it in memory. It acts as a transparent cache with the ability to make adjustments in between.  
 
 ## Usage
 
