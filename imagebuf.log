@@ -1,0 +1,164 @@
+[2016-02-15 22:08:49.344] [DEBUG] debug - Start
+[2016-02-15 22:08:49.627] [FATAL] debug - { [Error: Cannot find module 'lru-cache'] code: 'MODULE_NOT_FOUND' }
+Error: Cannot find module 'lru-cache'
+    at Function.Module._resolveFilename (module.js:326:15)
+    at Function.Module._load (module.js:277:25)
+    at Module.require (module.js:354:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:39:11)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+[2016-02-15 22:11:41.407] [DEBUG] debug - Start
+[2016-02-15 22:11:41.634] [FATAL] debug - { [Error: Cannot find module 'lru-cache'] code: 'MODULE_NOT_FOUND' }
+Error: Cannot find module 'lru-cache'
+    at Function.Module._resolveFilename (module.js:326:15)
+    at Function.Module._load (module.js:277:25)
+    at Module.require (module.js:354:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:39:11)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+[2016-02-15 22:11:57.884] [DEBUG] debug - Start
+[2016-02-15 22:11:58.141] [FATAL] debug - { [Error: Cannot find module 'lru-cache'] code: 'MODULE_NOT_FOUND' }
+Error: Cannot find module 'lru-cache'
+    at Function.Module._resolveFilename (module.js:326:15)
+    at Function.Module._load (module.js:277:25)
+    at Module.require (module.js:354:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:39:11)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+[2016-02-15 22:15:59.535] [DEBUG] debug - Start
+[2016-02-15 22:15:59.764] [FATAL] debug - { [Error: Cannot find module './node_modules/lru-cache'] code: 'MODULE_NOT_FOUND' }
+Error: Cannot find module './node_modules/lru-cache'
+    at Function.Module._resolveFilename (module.js:326:15)
+    at Function.Module._load (module.js:277:25)
+    at Module.require (module.js:354:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:39:11)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+[2016-02-15 22:24:57.200] [DEBUG] debug - Start
+[2016-02-15 22:24:57.537] [DEBUG] debug - Error building in-memory buffer { [Error: ENOENT: no such file or directory, scandir 'c:\tmp']
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'c:\\tmp' }
+Error: ENOENT: no such file or directory, scandir 'c:\tmp'
+    at Error (native)
+    at Object.fs.readdirSync (fs.js:808:18)
+    at diveSync (c:\Users\Yefu\Dropbox\work\ImageBuf\node_modules\diveSync\diveSync.js:30:19)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:53:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+    at startup (node.js:136:18)
+[2016-02-15 22:24:57.578] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-16 20:24:39.836] [DEBUG] debug - Start
+[2016-02-16 20:24:40.038] [DEBUG] debug - Error building in-memory buffer { [Error: ENOENT: no such file or directory, scandir 'c:\tmp']
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'c:\\tmp' }
+Error: ENOENT: no such file or directory, scandir 'c:\tmp'
+    at Error (native)
+    at Object.fs.readdirSync (fs.js:808:18)
+    at diveSync (c:\Users\Yefu\Dropbox\work\ImageBuf\node_modules\diveSync\diveSync.js:30:19)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:53:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+    at startup (node.js:136:18)
+[2016-02-16 20:24:40.067] [FATAL] debug - { [Error: Cannot find module 'cacheServer'] code: 'MODULE_NOT_FOUND' }
+Error: Cannot find module 'cacheServer'
+    at Function.Module._resolveFilename (module.js:326:15)
+    at Function.Module._load (module.js:277:25)
+    at Module.require (module.js:354:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:159:19)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+[2016-02-16 20:25:00.857] [DEBUG] debug - Start
+[2016-02-16 20:25:01.151] [DEBUG] debug - Error building in-memory buffer { [Error: ENOENT: no such file or directory, scandir 'c:\tmp']
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'c:\\tmp' }
+Error: ENOENT: no such file or directory, scandir 'c:\tmp'
+    at Error (native)
+    at Object.fs.readdirSync (fs.js:808:18)
+    at diveSync (c:\Users\Yefu\Dropbox\work\ImageBuf\node_modules\diveSync\diveSync.js:30:19)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:53:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+    at startup (node.js:136:18)
+[2016-02-16 20:25:01.192] [FATAL] debug - { [Error: Cannot find module 'lib/cacheServer'] code: 'MODULE_NOT_FOUND' }
+Error: Cannot find module 'lib/cacheServer'
+    at Function.Module._resolveFilename (module.js:326:15)
+    at Function.Module._load (module.js:277:25)
+    at Module.require (module.js:354:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:159:19)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+[2016-02-16 20:25:19.341] [DEBUG] debug - Start
+[2016-02-16 20:25:19.596] [DEBUG] debug - Error building in-memory buffer { [Error: ENOENT: no such file or directory, scandir 'c:\tmp']
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'c:\\tmp' }
+Error: ENOENT: no such file or directory, scandir 'c:\tmp'
+    at Error (native)
+    at Object.fs.readdirSync (fs.js:808:18)
+    at diveSync (c:\Users\Yefu\Dropbox\work\ImageBuf\node_modules\diveSync\diveSync.js:30:19)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:53:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+    at startup (node.js:136:18)
+[2016-02-16 20:25:19.627] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-16 20:32:10.309] [DEBUG] debug - Start
+[2016-02-16 20:32:10.527] [DEBUG] debug - Error building in-memory buffer { [Error: ENOENT: no such file or directory, scandir 'c:\tmp']
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'scandir',
+  path: 'c:\\tmp' }
+Error: ENOENT: no such file or directory, scandir 'c:\tmp'
+    at Error (native)
+    at Object.fs.readdirSync (fs.js:808:18)
+    at diveSync (c:\Users\Yefu\Dropbox\work\ImageBuf\node_modules\diveSync\diveSync.js:30:19)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:53:1)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+    at startup (node.js:136:18)
+[2016-02-16 20:32:10.563] [INFO] debug - Server running at http://127.0.0.1:1337/

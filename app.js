@@ -10,7 +10,7 @@ log4js.configure( {
 	  appenders: [
 	              { type: 'console' },{
 	                type: 'file', 
-	                filename: '/var/log/imagebuf/imagebuf.log', 
+	                filename: 'imagebuf.log',
 	                maxLogSize: 10240000,
 	                backups:4,
 	                category: 'debug' 
@@ -36,10 +36,10 @@ var binRequest = require('request').defaults({
 var SourceServer = 'http://s3.amazonaws.com/ellen.wang';
 var LocalFolder = '/tmp';
 
-var LRU = require("lru-cache")
+var LRU = require('lru-cache')
 , options = { max: 100000000
             , length: function (n) { return n.length }}
-, cache = LRU(options)
+, cache = LRU(options);
 
 
 String.prototype.endsWith = function(suffix) {
@@ -156,23 +156,10 @@ var serveFromFileOrServer = function(res, filename, localfileResized, localfile,
 		});
 }
 
-http.createServer(function handler(req, res) {
-	var request = url.parse(req.url, true);
-	var filename = request.pathname;
-	var sourceURL = SourceServer.concat(filename);
-	var localfile = LocalFolder.concat(filename);
-	var localfileResized = localfile.concat('.resize');
+var CacheServer = require('./lib/cacheServer');
+var cacheServer = new CacheServer(100000);
+cacheServer.setLogger(logger);
 
-	//See if it is in the in-memory buffer first
-	if(cache.has(localfileResized)){
-		logger.debug('[MEMORY]',localfileResized);
-		res.writeHead(200, {'Content-Type': 'image/jpeg' });
-		res.end(cache.get(localfileResized), 'binary');
-	}
-	else{
-		serveFromFileOrServer(res, filename, localfileResized, localfile, sourceURL);
-		
-	}
-}).listen(1337, '127.0.0.1');
+http.createServer(cacheServer.serveRequest).listen(1337, '127.0.0.1');
 
 logger.info('Server running at http://127.0.0.1:1337/');
