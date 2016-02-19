@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yefuwang/ImageBuf.git"
+  },
   "keywords": [
     "node.js",
     "eclipse",
@@ -14,5 +17,8 @@
   ],
   "author": "",
   "license": "MIT",
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "temp": "^0.8.3"
+  }
 }

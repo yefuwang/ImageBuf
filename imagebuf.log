@@ -162,3 +162,226 @@ Error: ENOENT: no such file or directory, scandir 'c:\tmp'
     at Function.Module.runMain (module.js:442:10)
     at startup (node.js:136:18)
 [2016-02-16 20:32:10.563] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-18 21:06:22.540] [DEBUG] debug - Start
+[2016-02-18 21:06:22.581] [FATAL] debug - [ReferenceError: modules is not defined]
+ReferenceError: modules is not defined
+    at c:\Users\Yefu\Dropbox\work\ImageBuf\lib\remoteFileServer.js:7:5
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\remoteFileServer.js:53:3)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Module.require (module.js:354:17)
+    at require (internal/module.js:12:17)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:40:24)
+    at Module._compile (module.js:410:26)
+[2016-02-18 21:06:56.258] [DEBUG] debug - Start
+[2016-02-18 21:06:56.602] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-18 21:07:51.465] [FATAL] debug - [ReferenceError: url is not defined]
+ReferenceError: url is not defined
+    at Server.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:34:23)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-18 21:08:30.180] [DEBUG] debug - Start
+[2016-02-18 21:08:30.448] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-18 21:08:30.473] [FATAL] debug - [ReferenceError: url is not defined]
+ReferenceError: url is not defined
+    at Server.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:35:23)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-18 21:08:56.723] [DEBUG] debug - Start
+[2016-02-18 21:08:56.991] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-18 21:09:01.147] [FATAL] debug - [ReferenceError: SourceServer is not defined]
+ReferenceError: SourceServer is not defined
+    at Server.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:39:25)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-18 21:09:04.326] [FATAL] debug - [ReferenceError: SourceServer is not defined]
+ReferenceError: SourceServer is not defined
+    at Server.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:39:25)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-18 21:09:53.581] [DEBUG] debug - Start
+[2016-02-18 21:09:53.851] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-18 21:10:02.094] [FATAL] debug - [ReferenceError: LocalFolder is not defined]
+ReferenceError: LocalFolder is not defined
+    at Server.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:39:25)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 05:30:47.455] [DEBUG] debug - Start
+[2016-02-19 05:30:47.770] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 05:30:55.960] [FATAL] debug - [ReferenceError: cache is not defined]
+ReferenceError: cache is not defined
+    at Server.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:40:12)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 06:14:14.065] [DEBUG] debug - Start
+[2016-02-19 06:14:14.082] [FATAL] debug - [ReferenceError: serveRequest is not defined]
+ReferenceError: serveRequest is not defined
+    at new CacheServer (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:15:29)
+    at Object.<anonymous> (c:\Users\Yefu\Dropbox\work\ImageBuf\app.js:33:19)
+    at Module._compile (module.js:410:26)
+    at Object.Module._extensions..js (module.js:417:10)
+    at Module.load (module.js:344:32)
+    at Function.Module._load (module.js:301:12)
+    at Function.Module.runMain (module.js:442:10)
+    at startup (node.js:136:18)
+    at node.js:966:3
+[2016-02-19 06:14:42.235] [DEBUG] debug - Start
+[2016-02-19 06:14:42.599] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 06:14:51.821] [FATAL] debug - [TypeError: Cannot read property 'has' of undefined]
+TypeError: Cannot read property 'has' of undefined
+    at Server.CacheServer.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:39:22)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 06:21:13.345] [DEBUG] debug - Start
+[2016-02-19 06:21:13.732] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 06:21:24.783] [FATAL] debug - [TypeError: Cannot read property 'has' of undefined]
+TypeError: Cannot read property 'has' of undefined
+    at Server.CacheServer.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:39:22)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 06:28:24.018] [DEBUG] debug - Start
+[2016-02-19 06:28:24.265] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 06:28:29.370] [FATAL] debug - [ReferenceError: logger is not defined]
+ReferenceError: logger is not defined
+    at RemoteFileServer.log (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\remoteFileServer.js:14:16)
+    at Server.CacheServer.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:33:9)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 06:33:02.477] [DEBUG] debug - Start
+[2016-02-19 06:33:02.666] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 06:33:08.293] [FATAL] debug - [TypeError: Cannot read property 'has' of undefined]
+TypeError: Cannot read property 'has' of undefined
+    at Server.CacheServer.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:35:22)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 06:34:52.026] [DEBUG] debug - Start
+[2016-02-19 06:34:52.307] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 06:34:56.582] [FATAL] debug - [TypeError: Cannot read property 'has' of undefined]
+TypeError: Cannot read property 'has' of undefined
+    at Server.CacheServer.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:35:22)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 06:35:28.092] [DEBUG] debug - Start
+[2016-02-19 06:35:28.432] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 06:35:32.766] [FATAL] debug - [TypeError: Cannot read property 'has' of undefined]
+TypeError: Cannot read property 'has' of undefined
+    at Server.CacheServer.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:38:22)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 06:37:42.778] [DEBUG] debug - Start
+[2016-02-19 06:37:43.032] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 06:37:50.236] [FATAL] debug - [ReferenceError: parent is not defined]
+ReferenceError: parent is not defined
+    at CacheServer.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:44:13)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 06:38:27.353] [DEBUG] debug - Start
+[2016-02-19 06:38:27.586] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 06:38:32.199] [FATAL] debug - [ReferenceError: fileName is not defined]
+ReferenceError: fileName is not defined
+    at CacheServer.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:44:30)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 06:39:00.437] [DEBUG] debug - Start
+[2016-02-19 06:39:00.693] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 06:39:05.573] [FATAL] debug - [ReferenceError: path is not defined]
+ReferenceError: path is not defined
+    at LocalFileServer.load (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\localFileServer.js:37:25)
+    at CacheServer.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:44:25)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 06:54:57.565] [DEBUG] debug - Start
+[2016-02-19 06:54:57.912] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 06:55:05.279] [FATAL] debug - [ReferenceError: filename is not defined]
+ReferenceError: filename is not defined
+    at LocalFileServer.load (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\localFileServer.js:39:38)
+    at CacheServer.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:44:25)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 06:55:39.701] [DEBUG] debug - Start
+[2016-02-19 06:55:39.979] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 07:40:59.436] [DEBUG] debug - Start
+[2016-02-19 07:40:59.777] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 07:41:06.337] [DEBUG] debug - CacheServer {
+  setParent: [Function],
+  sizeLimit: 100000,
+  setLogger: [Function],
+  log: [Function],
+  cache: 
+   LRUCache {
+     _max: 100000,
+     _lengthCalculator: [Function],
+     _allowStale: false,
+     _maxAge: null,
+     _dispose: undefined,
+     _cache: {},
+     _lruList: {},
+     _mru: 0,
+     _lru: 0,
+     _length: 0,
+     _itemCount: 0 },
+  logger: 
+   Logger {
+     category: 'debug',
+     _events: { log: [Object] },
+     _eventsCount: 1,
+     level: Level { level: 10000, levelStr: 'DEBUG' } },
+  parent: 
+   LocalFileServer {
+     path: 'C:\\Users\\Yefu\\AppData\\Local\\Temp\\d-116119-7048-uo1h34',
+     setLogger: [Function],
+     log: [Function],
+     setParent: [Function],
+     setFilter: [Function] } } undefined
+[2016-02-19 07:42:39.341] [DEBUG] debug - Start
+[2016-02-19 07:42:39.645] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 07:42:43.914] [FATAL] debug - [ReferenceError: logger is not defined]
+ReferenceError: logger is not defined
+    at LocalFileServer.log (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\localFileServer.js:21:16)
+    at LocalFileServer.load (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\localFileServer.js:41:14)
+    at CacheServer.serveRequest (c:\Users\Yefu\Dropbox\work\ImageBuf\lib\cacheServer.js:43:25)
+    at emitTwo (events.js:87:13)
+    at Server.emit (events.js:172:7)
+    at HTTPParser.parserOnIncoming [as onIncoming] (_http_server.js:528:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:88:23)
+[2016-02-19 07:43:25.973] [DEBUG] debug - Start
+[2016-02-19 07:43:26.237] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 07:44:42.941] [DEBUG] debug - Start
+[2016-02-19 07:44:43.178] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 07:45:42.419] [DEBUG] debug - Start
+[2016-02-19 07:45:42.719] [INFO] debug - Server running at http://127.0.0.1:1337/
+[2016-02-19 07:45:45.604] [DEBUG] debug - Checking C:\Users\Yefu\AppData\Local\Temp\d-116119-3192-1sk3nq4/2015/dec/birthday/DSC_0002.JPG.resize undefined
