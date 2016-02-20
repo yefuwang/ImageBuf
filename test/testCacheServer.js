@@ -103,7 +103,6 @@ describe('CacheServer',function(){
 
             cacheServer._lastReqFromMemory.should.equal(false);
 
-
         });
     });
 });
