@@ -1,6 +1,7 @@
 var fs = require('fs');
 var http = require('http');
 var commandLineArgs = require('command-line-args');
+var log4js = require( "log4js" );
 
 var cli = commandLineArgs([
 	{ name: 'memoryCacheSize', alias: 'm', type: String },
@@ -16,15 +17,10 @@ var options = cli.parse();
 
 //Begin setup logging
 if(options.logFile != undefined){
-	var log4js = require( "log4js" );
+
 	log4js.configure( {appenders: [
-			{ type: 'console' },{
-				type: 'file',
-				filename: options.logFile,
-				maxLogSize: 10240000,
-				backups:4,
-				category: 'debug'
-			}
+			{ type: 'console' },
+            { type: 'file', filename: options.logFile, maxLogSize: 10240000, backups:4, category: 'debug' 	}
 		],
 		replaceConsole: true
 	}) ;
@@ -35,6 +31,9 @@ if(options.logFile != undefined){
 		// log error
 		logger.fatal(err);
 	});
+
+    log4js.replaceConsole();
+    console.log("Logging begins at " +options.logFile);
 }
 //End setup logging
 
@@ -52,7 +51,7 @@ var CacheServer = require('./lib/cacheServer');
 var cacheServer = new CacheServer(cacheSize);
 
 var LocalFileServer = require('./lib/localFileServer');
-var localFileServer = new LocalFileServer();
+var localFileServer = new LocalFileServer(options.localFolder);
 cacheServer.setParent(localFileServer);
 
 var RemoteFileServer = require('./lib/remoteFileServer');
