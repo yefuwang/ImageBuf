@@ -6,6 +6,7 @@ var assert = require('assert');
 var should = require('should');
 
 var CacheServer = require('../lib/cacheServer');
+/*
 var cacheServer = new CacheServer(cacheSize);
 
 describe('ImageBufUtils',function(){
@@ -17,3 +18,4 @@ describe('ImageBufUtils',function(){
 
     });
 });
+*/
