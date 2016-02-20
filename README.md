@@ -21,6 +21,8 @@ ImageBuf makes my photo sharing cheap and easy to maintain. Just drop the pics f
 
 ## Usage
 
+sudo apt-get install graphicsmagick
+
 node.js app.js OPTIONS
 
  Required Options:
@@ -38,8 +40,4 @@ node.js app.js OPTIONS
     --logFile [Path]
 
     --memoryCacheSize [Size]    The amount of memory that ImageBuf uses as a in-memory cache. The format can be: 1024, 1000KB. 128MB, etc.Default: 0
-
-
-
-
 
