@@ -3,6 +3,7 @@
 # ImageBuf
 
 [![Build Status](https://travis-ci.org/yefuwang/ImageBuf.svg?branch=master)](https://travis-ci.org/yefuwang/ImageBuf)
+[![Coverage Status](https://coveralls.io/repos/github/yefuwang/ImageBuf/badge.svg?branch=dev)](https://coveralls.io/github/yefuwang/ImageBuf?branch=dev)
 
 As of 02/12/2016, this software is not stable for production use yet. 
 
