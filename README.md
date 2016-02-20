@@ -21,7 +21,13 @@ ImageBuf makes my photo sharing cheap and easy to maintain. Just drop the pics f
 
 ## Usage
 
+ImageBuf uses graphicsmagick for image resizing. If graphicsmagick is not installed correctly, resizing will be disabled. To install graphicsmagick on ubuntu, run:
+
 sudo apt-get install graphicsmagick
+
+For windows,install graphicsmagick and make sure you have the executable of gm on your PATH. Verify by running gm in your command line.
+
+Run ImageBuf under node.js:
 
 node.js app.js OPTIONS
 
@@ -39,5 +45,6 @@ node.js app.js OPTIONS
 
     --logFile [Path]
 
-    --memoryCacheSize [Size]    The amount of memory that ImageBuf uses as a in-memory cache. The format can be: 1024, 1000KB. 128MB, etc.Default: 0
+    --memoryCacheSize [Size]    The amount of memory that ImageBuf uses as a in-memory cache.
+                                The format can be: 1024, 1000KB. 128MB, etc.Default: 0
 
