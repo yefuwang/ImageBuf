@@ -3,14 +3,13 @@
 # ImageBuf
 
 [![Build Status](https://travis-ci.org/yefuwang/ImageBuf.svg?branch=master)](https://travis-ci.org/yefuwang/ImageBuf)
+[![Coverage Status](https://coveralls.io/repos/github/yefuwang/ImageBuf/badge.svg?branch=dev)](https://coveralls.io/github/yefuwang/ImageBuf?branch=dev)
 
 As of 02/12/2016, this software is not stable for production use yet. 
 
 ImageBug accepts images from an external repository (e.g., amazon S3), caches it locally (both on hard drive and in memory), and serves it in memory. It acts as a transparent cache with the ability to make adjustments in between.  
 
 <img src="https://s3.amazonaws.com/wangyefucom/imagebuf.jpg" height="300" />
-
-ImageBuf is maintained by Yefu Wang. Yefu uses ImageBuf in his daughter's WordPress site at. 
 
 ## Typical Usage ImageBuf
 
@@ -23,12 +22,24 @@ ImageBuf makes my photo sharing cheap and easy to maintain. Just drop the pics f
 ## Usage
 
 node.js app.js OPTIONS
+
  Required Options:
+
     --portNumber [portNumber]
+
     --remotePath [remote_path]
+
  Optional options
+
     --resizeWidth  [width]
+
     --resizeHeight [height]
+
     --logFile [Path]
+
+    --memoryCacheSize [Size]    The amount of memory that ImageBuf uses as a in-memory cache. The format can be: 1024, 1000KB. 128MB, etc.Default: 0
+
+
+
 
 

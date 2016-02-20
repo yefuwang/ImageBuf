@@ -24,7 +24,11 @@
     "temp": "^0.8.3"
   },
   "devDependencies": {
+    "coveralls": "^2.11.6",
+    "istanbul": "^0.4.2",
+    "jscover": "^1.0.0",
     "mocha": "^2.4.5",
+    "mocha-lcov-reporter": "^1.1.0",
     "should": "^8.2.2"
   }
 }

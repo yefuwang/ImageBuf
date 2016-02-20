@@ -36,4 +36,10 @@ describe('ImageBufUtils',function(){
             imageBufUtils.parseSize().should.equal(0);
         });
     });
+
+    describe('Sanitise',function(){
+        it("Remove suspiciouse charartors", function(){
+            imageBufUtils.sanitize('../2015/de@#$%c/b::irt:hday/........DSC_0002.JPG').should.equal('/2015/dec/birthday/DSC_0002.JPG');
+               });
+    });
 });
