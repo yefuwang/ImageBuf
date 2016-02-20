@@ -2,6 +2,8 @@
 
 # ImageBuf
 
+[![Build Status](https://travis-ci.org/yefuwang/ImageBuf.svg?branch=master)](https://travis-ci.org/yefuwang/ImageBuf)
+
 As of 02/12/2016, this software is not stable for production use yet. 
 
 ImageBug accepts images from an external repository (e.g., amazon S3), caches it locally (both on hard drive and in memory), and serves it in memory. It acts as a transparent cache with the ability to make adjustments in between.  
