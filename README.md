@@ -11,8 +11,6 @@ ImageBug accepts images from an external repository (e.g., amazon S3), caches it
 
 <img src="https://s3.amazonaws.com/wangyefucom/imagebuf.jpg" height="300" />
 
-ImageBuf is maintained by Yefu Wang. Yefu uses ImageBuf in his daughter's WordPress site at. 
-
 ## Typical Usage ImageBuf
 
 As a father I take a lot of photos of my daughter. I store them in Amazon S3 with full size. I then run ImageBuf on my tiny instance of Amazon EC2. When my daughter's WordPress requests an image, my ImageBuf will automatically download it from Amazon S3, resize it, and serve it back. The resized image will be cached.
@@ -38,6 +36,9 @@ node.js app.js OPTIONS
     --resizeHeight [height]
 
     --logFile [Path]
+
+    --memoryCacheSize [Size]    The amount of memory that ImageBuf uses as a in-memory cache. The format can be: 1024, 1000KB. 128MB, etc.Default: 0
+
 
 
 
