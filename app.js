@@ -47,7 +47,7 @@ var imageBufUtils = require('./lib/imageBufUtils');
 var cacheSize = imageBufUtils.parseSize(options.memoryCacheSize);
 
 var CacheServer = require('./lib/cacheServer');
-var cacheServer = new CacheServer(100000000);
+var cacheServer = new CacheServer(cacheSize);
 cacheServer.setLogger(logger);
 
 var LocalFileServer = require('./lib/localFileServer');
