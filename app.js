@@ -4,10 +4,12 @@ var commandLineArgs = require('command-line-args');
 
 var cli = commandLineArgs([
 	{ name: 'memoryCacheSize', alias: 'm', type: String },
-    { name: 'localFolder', alias: 'f', type: String },
-    { name: 'remotePath', alias: 'r', type: String },
-    { name: 'logFile', alias: 'l', type: String },
-    { name: 'portNumber', alias: 'p', type: Number }
+    { name: 'localFolder',      alias: 'f', type: String },
+    { name: 'remotePath',       alias: 'r', type: String },
+    { name: 'logFile',          alias: 'l', type: String },
+    { name: 'portNumber',      alias: 'p', type: Number },
+    { name: 'resizeWidth',     alias: 'w', type: Number},
+    { name: 'resizeHeight',    alias: 'h', type: Number}
 ]);
 
 var options = cli.parse();
@@ -18,7 +20,7 @@ if(options.logFile != undefined){
 	log4js.configure( {appenders: [
 			{ type: 'console' },{
 				type: 'file',
-				filename: 'imagebuf.log',
+				filename: options.logFile,
 				maxLogSize: 10240000,
 				backups:4,
 				category: 'debug'
@@ -41,29 +43,37 @@ if(options.portNumber == undefined || options.remotePath == undefined){
 	process.exit(1);
 }
 
-logger.debug('Start');
+console.log('Start');
 var imageBufUtils = require('./lib/imageBufUtils');
 
 var cacheSize = imageBufUtils.parseSize(options.memoryCacheSize);
 
 var CacheServer = require('./lib/cacheServer');
 var cacheServer = new CacheServer(cacheSize);
-cacheServer.setLogger(logger);
 
 var LocalFileServer = require('./lib/localFileServer');
 var localFileServer = new LocalFileServer();
-localFileServer.setLogger(logger);
 cacheServer.setParent(localFileServer);
 
 var RemoteFileServer = require('./lib/remoteFileServer');
 var remoteFileServer = new RemoteFileServer(options.remotePath);
-remoteFileServer.setLogger(logger);
 localFileServer.setParent(remoteFileServer);
 
-var ImageMagicFilter = require('./lib/imageMagicFilter');
-var imageMagticFilter = new ImageMagicFilter(800);
-remoteFileServer.setFilter(imageMagticFilter);
+if(options.resizeWidth != undefined || options.resizeHeight != undefined) {
+    //Setting up resizing filter. But, check if gm is installed first!
+    var exec = require('child_process').exec;
+    exec("gm -help", function (error, stdout, stderr) {
+        if(error){
+            console.log("gm is not installed. Ignoring all resizing parameters");
+        }
+        else{
+            var ImageMagicFilter = require('./lib/imageMagicFilter');
+            var imageMagticFilter = new ImageMagicFilter(options.resizeWidth, options.resizeHeight);
+            remoteFileServer.setFilter(imageMagticFilter);
+        }
+    });
+}
 
 http.createServer(cacheServer.serveRequest.bind(cacheServer)).listen(options.portNumber, '127.0.0.1');
 
-logger.info('Server running at http://127.0.0.1:1337/');
+console.log('Server running at http://127.0.0.1:'+options.portNumber);

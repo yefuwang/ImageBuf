@@ -22,5 +22,13 @@ ImageBuf makes my photo sharing cheap and easy to maintain. Just drop the pics f
 
 ## Usage
 
-To be added ...
+node.js app.js OPTIONS
+ Required Options:
+    --portNumber [portNumber]
+    --remotePath [remote_path]
+ Optional options
+    --resizeWidth  [width]
+    --resizeHeight [height]
+    --logFile [Path]
+
 
