@@ -4,7 +4,7 @@
   "description": "ImageBuf",
   "main": "hello-world-server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified! Configure in package.json\" && exit 1"
+    "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -19,6 +19,12 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
+    "command-line-args": "^2.1.6",
+    "gm": "^1.21.1",
     "temp": "^0.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2"
   }
 }

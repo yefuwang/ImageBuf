@@ -1,7 +1,497 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a6a3f44-7c12-4a8b-80e1-c422645c97b4" name="Default" comment="" />
+    <list default="true" id="9a6a3f44-7c12-4a8b-80e1-c422645c97b4" name="Default" comment="Unit test">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/screens/custom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/screens/description-columns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/screens/example-columns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/screens/footer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/screens/groups.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/screens/header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/screens/simple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/imageBufUtils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/_mocha" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/_mocha.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/command-line-args" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/command-line-args.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/mocha" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/.bin/mocha.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/bin/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/es5/argv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/es5/command-line-args.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/es5/definition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/es5/definitions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/es5/option.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/example/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/example/alias.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/example/defaultValue.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/example/group.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/example/multiple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/example/name.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/example/type.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/example/typical.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/example/validate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/lib/argv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/lib/command-line-args.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/lib/definition.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/lib/definitions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/lib/option.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/array-back/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/array-back/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/array-back/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/array-back/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/array-back/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/array-back/lib/array-back.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/array-back/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/array-back/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/es5/command-line-usage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/es5/usage-options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/assets/ansi-header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/assets/ansi-ussr.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/assets/ansi-wales.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/assets/ascii-ussr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/description-columns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/examples.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/footer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/groups.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/header.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/example/simple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/lib/command-line-usage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/lib/usage-options.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/.bin/ansi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/.bin/ansi.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/.bin/column-layout" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/.bin/column-layout.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/.bin/object-tools" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/.bin/object-tools.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/bin/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/lib/ansi-escape-sequences.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/lib/collect-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-connect/.coveralls.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-connect/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-connect/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-connect/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-connect/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-connect/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-connect/lib/stream-connect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-connect/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-connect/test/fixture.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-connect/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-via/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-via/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-via/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-via/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-via/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-via/lib/stream-via.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-via/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/node_modules/stream-via/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/node_modules/collect-all/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/ansi-escape-sequences/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/bin/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/es5/ansi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/es5/cell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/es5/column-layout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/es5/columns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/es5/padding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/es5/rows.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/es5/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/break-width.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/break.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/empty-column.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/five-columns-width.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/five-columns.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/nowrap.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/one-column-ansi.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/one-column-width.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/one-column.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/three-columns.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/two-columns-maxwidth.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/two-columns-no-width.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/two-columns.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/example/unicode.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/lib/ansi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/lib/cell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/lib/column-layout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/lib/columns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/lib/padding.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/lib/rows.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/lib/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/.bin/wordwrapjs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/.bin/wordwrapjs.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/lib/collect-json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/collect-all/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/collect-all/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/collect-all/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/collect-all/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/collect-all/example/object-mode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/collect-all/example/simple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/collect-all/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/collect-all/lib/collect-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/collect-all/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/collect-all/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-connect/.coveralls.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-connect/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-connect/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-connect/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-connect/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-connect/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-connect/lib/stream-connect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-connect/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-connect/test/fixture.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-connect/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-via/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-via/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-via/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-via/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-via/example/async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-via/example/simple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-via/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-via/lib/stream-via.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-via/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/node_modules/stream-via/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/collect-json/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/deep-extend/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/deep-extend/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/deep-extend/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/deep-extend/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/deep-extend/lib/deep-extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/deep-extend/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/wordwrapjs/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/wordwrapjs/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/wordwrapjs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/wordwrapjs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/wordwrapjs/bin/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/wordwrapjs/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/wordwrapjs/lib/wordwrapjs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/wordwrapjs/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/wordwrapjs/test/bad.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/node_modules/wordwrapjs/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/test/bad-columnLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/test/columnLayout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/test/columns.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/test/fixture/primatives.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/test/fixture/simple-viewWidth.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/test/rows.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/column-layout/test/table.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/.zuul.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/bin/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/lib/object-tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/.bin/array-tools" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/.bin/array-tools.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/.zuul.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/bin/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/lib/array-tools.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/node_modules/sort-array/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/node_modules/sort-array/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/node_modules/sort-array/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/node_modules/sort-array/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/node_modules/sort-array/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/node_modules/sort-array/lib/sort-array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/node_modules/sort-array/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/node_modules/sort-array/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/chaining.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/contains.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/exists.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/extract.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/findWhere.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/fixture/array.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/groupby.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/pick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/pluck.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/remove.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/spliceWhile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/unique.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/where.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/array-tools/test/without.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/lib/collect-json.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/collect-all/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/collect-all/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/collect-all/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/collect-all/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/collect-all/example/object-mode.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/collect-all/example/simple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/collect-all/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/collect-all/lib/collect-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/collect-all/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/collect-all/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-connect/.coveralls.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-connect/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-connect/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-connect/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-connect/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-connect/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-connect/lib/stream-connect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-connect/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-connect/test/fixture.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-connect/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-via/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-via/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-via/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-via/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-via/example/async.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-via/example/simple.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-via/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-via/lib/stream-via.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-via/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/node_modules/stream-via/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/collect-json/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/object-get/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/object-get/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/object-get/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/object-get/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/object-get/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/object-get/lib/object-get.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/object-get/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/object-get/test/expression.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/test-value/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/test-value/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/test-value/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/test-value/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/test-value/jsdoc2md/README.hbs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/test-value/lib/test-value.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/test-value/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/node_modules/test-value/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/test/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/test/clone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/test/exists.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/test/expression.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/test/extend.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/test/extract.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/test/select.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/test/where.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/node_modules/object-tools/test/without.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/command-line-usage/test/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/build/Gruntfile.ls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/build/build.ls" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/build/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/build/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/client/core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/client/core.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/client/core.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/client/library.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/client/library.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/client/library.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/client/shim.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/client/shim.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/client/shim.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/core/_.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/core/delay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/core/dict.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/core/function.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/core/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/core/number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/core/object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/core/regexp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/core/string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es5/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/function.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/math.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/number.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/parse-float.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/parse-int.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/promise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/reflect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/regexp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/symbol.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/typed.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/weak-map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es6/weak-set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es7/array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es7/error.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es7/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es7/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es7/math.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es7/object.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es7/reflect.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es7/set.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es7/string.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/es7/system.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/concat.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/copy-within.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/entries.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/every.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/fill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/find-index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/for-each.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/from.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/includes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/index-of.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/is-array.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/iterator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/join.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/keys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/last-index-of.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/of.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/pop.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/push.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/reduce-right.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/reduce.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/reverse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/shift.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/slice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/some.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/sort.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/splice.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/unshift.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/values.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/virtual/copy-within.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/virtual/entries.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/virtual/every.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/virtual/fill.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/virtual/filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/virtual/find-index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/virtual/find.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/virtual/for-each.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/virtual/includes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/virtual/index-of.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/command-line-args/node_modules/core-js/fn/array/virtual/index.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/debug.component.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/example/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/example/browser.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/example/wildcards.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/example/worker.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/head.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/lib/debug.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/tail.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/through/.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/through/LICENSE.APACHE2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/through/LICENSE.MIT" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/through/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/through/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/through/readme.markdown" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/through/test/async.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/through/test/auto-destroy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/through/test/buffering.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/through/test/end.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/through/test/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/imagemagick/.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/imagemagick/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/imagemagick/imagemagick.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/imagemagick/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/imagemagick/test-crop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/imagemagick/test.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imagebuf.log" afterPath="$PROJECT_DIR$/imagebuf.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cacheServer.js" afterPath="$PROJECT_DIR$/lib/cacheServer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/imageMagicFilter.js" afterPath="$PROJECT_DIR$/lib/imageMagicFilter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/localFileServer.js" afterPath="$PROJECT_DIR$/lib/localFileServer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/remoteFileServer.js" afterPath="$PROJECT_DIR$/lib/remoteFileServer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/.npmignore" afterPath="$PROJECT_DIR$/node_modules/gm/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/gm/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/History.md" afterPath="$PROJECT_DIR$/node_modules/gm/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/Makefile" afterPath="$PROJECT_DIR$/node_modules/gm/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/README.md" afterPath="$PROJECT_DIR$/node_modules/gm/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/index.js" afterPath="$PROJECT_DIR$/node_modules/gm/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/args.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/args.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/command.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/command.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/compare.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/compare.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/composite.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/composite.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/convenience.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/convenience.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/convenience/autoOrient.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/convenience/autoOrient.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/convenience/morph.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/convenience/morph.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/convenience/sepia.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/convenience/sepia.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/convenience/thumb.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/convenience/thumb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/drawing.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/drawing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/getters.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/getters.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/options.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/options.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/lib/utils.js" afterPath="$PROJECT_DIR$/node_modules/gm/lib/utils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/.npmignore" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/README.md" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/component.json" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/index.js" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/package.json" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/test.js" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-parallel/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/.npmignore" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/.travis.yml" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/.travis.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/README.md" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/component.json" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/index.js" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/package.json" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/test.js" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/array-series/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/.npmignore" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/.npmignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/History.md" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/Makefile" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/Readme.md" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/debug.js" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/debug.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/package.json" afterPath="$PROJECT_DIR$/node_modules/gm/node_modules/debug/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/gm/package.json" afterPath="$PROJECT_DIR$/node_modules/gm/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    </list>
     <ignored path="ImageBuf.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,29 +514,33 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.75">
-              <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="localFileServer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/localFileServer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.14809783">
-              <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="remoteFileServer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/remoteFileServer.js">
+      <file leaf-file-name="testImageBufUtils.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/testImageBufUtils.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-              <folding />
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="imageBufUtils.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/imageBufUtils.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.041394334">
+              <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -54,60 +548,65 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.607142">
-              <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/temp/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.785714">
-              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="imageMagicFilter.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/imageMagicFilter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lru-cache.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/lru-cache/lru-cache.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+            <state vertical-scroll-proportion="-3.392857">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
               <folding>
-                <element signature="e#364#1013#0" expanded="false" />
+                <marker date="1455975378186" expanded="true" signature="123:184" placeholder="{&quot;test&quot;: &quot;./node_modules/.bin/mocha --reporter spec&quot;...}" />
+                <marker date="1455975378186" expanded="true" signature="202:278" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+                <marker date="1455975378186" expanded="true" signature="294:346" placeholder="[...]" />
+                <marker date="1455975378186" expanded="true" signature="435:517" placeholder="{&quot;command-line-args&quot;: &quot;^2.1.6&quot;...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/lru-cache/package.json">
+      <file leaf-file-name="options.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/gm/lib/options.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cacheServer.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/cacheServer.js">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/gm/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.827587">
+              <caret line="123" column="3" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="compare.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/gm/lib/compare.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#739#3785#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="montage.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/gm/lib/montage.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="composite.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node_modules/gm/lib/composite.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -129,12 +628,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/node_modules/lru-cache/package.json" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/lib/imageMagicFilter.js" />
-        <option value="$PROJECT_DIR$/lib/remoteFileServer.js" />
-        <option value="$PROJECT_DIR$/lib/cacheServer.js" />
         <option value="$PROJECT_DIR$/lib/localFileServer.js" />
+        <option value="$PROJECT_DIR$/lib/imageMagicFilter.js" />
+        <option value="$PROJECT_DIR$/lib/cacheServer.js" />
+        <option value="$PROJECT_DIR$/lib/remoteFileServer.js" />
+        <option value="$PROJECT_DIR$/lib/ImageBufUtils.js" />
         <option value="$PROJECT_DIR$/app.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/test/test.js" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/test/testImageBufUtils.js" />
+        <option value="$PROJECT_DIR$/lib/imageBufUtils.js" />
       </list>
     </option>
   </component>
@@ -163,7 +667,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -181,6 +685,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,14 +715,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -307,11 +811,11 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16173361" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38794926" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -320,6 +824,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -336,20 +841,155 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Unit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unit test" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/cacheServer.js</url>
-          <line>36</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/localFileServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/remoteFileServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <marker date="1455975378186" expanded="true" signature="123:184" placeholder="{&quot;test&quot;: &quot;./node_modules/.bin/mocha --reporter spec&quot;...}" />
+            <marker date="1455975378186" expanded="true" signature="202:278" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1455975378186" expanded="true" signature="294:346" placeholder="[...]" />
+            <marker date="1455975378186" expanded="true" signature="435:517" placeholder="{&quot;command-line-args&quot;: &quot;^2.1.6&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/temp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/imageMagicFilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/lru-cache/lru-cache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="147" column="22" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cacheServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="48" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/localFileServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/remoteFileServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="49" selection-start-line="41" selection-start-column="49" selection-end-line="41" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding>
+            <marker date="1455975378186" expanded="true" signature="123:184" placeholder="{&quot;test&quot;: &quot;./node_modules/.bin/mocha --reporter spec&quot;...}" />
+            <marker date="1455975378186" expanded="true" signature="202:278" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1455975378186" expanded="true" signature="294:346" placeholder="[...]" />
+            <marker date="1455975378186" expanded="true" signature="435:517" placeholder="{&quot;command-line-args&quot;: &quot;^2.1.6&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/temp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/imageMagicFilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/lru-cache/lru-cache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/cacheServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -378,9 +1018,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding>
-            <element signature="e#364#1013#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -388,7 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -396,7 +1033,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -412,9 +1048,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#364#1013#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -422,9 +1056,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -432,7 +1063,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -440,56 +1070,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/lru-cache/lru-cache.js">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="14" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
-          <folding>
-            <element signature="e#364#1013#0" expanded="false" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/temp/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.785714">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.607142">
-          <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/imagemagick/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23483147">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/imageMagicFilter.js">
+    <entry file="file://$PROJECT_DIR$/lib/localFileServer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="30" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/remoteFileServer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+          <caret line="56" column="32" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -497,24 +1091,139 @@
     <entry file="file://$PROJECT_DIR$/lib/cacheServer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="1" selection-start-line="35" selection-start-column="1" selection-end-line="35" selection-end-column="1" />
+          <caret line="39" column="56" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/remoteFileServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/lru-cache/lru-cache.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.020697167">
+          <caret line="147" column="22" selection-start-line="147" selection-start-column="19" selection-end-line="147" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/temp/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.642857">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="42" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/imageMagicFilter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gm/lib/options.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gm/lib/compare.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#739#3785#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gm/lib/montage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gm/lib/composite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gm/lib/utils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33115467">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/gm/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.827587">
+          <caret line="123" column="3" selection-start-line="123" selection-start-column="3" selection-end-line="123" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.75">
-          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/localFileServer.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14809783">
-          <caret line="31" column="9" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state vertical-scroll-proportion="-3.392857">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+          <folding>
+            <marker date="1455975378186" expanded="true" signature="123:184" placeholder="{&quot;test&quot;: &quot;./node_modules/.bin/mocha --reporter spec&quot;...}" />
+            <marker date="1455975378186" expanded="true" signature="202:278" placeholder="{&quot;type&quot;: &quot;git&quot;...}" />
+            <marker date="1455975378186" expanded="true" signature="294:346" placeholder="[...]" />
+            <marker date="1455975378186" expanded="true" signature="435:517" placeholder="{&quot;command-line-args&quot;: &quot;^2.1.6&quot;...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/testImageBufUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/imageBufUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.041394334">
+          <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
