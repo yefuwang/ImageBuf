@@ -116,8 +116,8 @@
       <file leaf-file-name=".travis.yml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3448276">
-              <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+            <state vertical-scroll-proportion="0.41379312">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -723,7 +723,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456077322955</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Adding more versions of node.js for testing">
+      <created>1456077579955</created>
+      <option name="number" value="00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1456077579955</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -775,7 +781,8 @@
     <MESSAGE value="Memory reduction" />
     <MESSAGE value="Add integration test" />
     <MESSAGE value="locally hosted automatic integration test (mocha)" />
-    <option name="LAST_COMMIT_MESSAGE" value="locally hosted automatic integration test (mocha)" />
+    <MESSAGE value="Adding more versions of node.js for testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding more versions of node.js for testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1192,8 +1199,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3448276">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+        <state vertical-scroll-proportion="0.41379312">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
