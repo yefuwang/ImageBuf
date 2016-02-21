@@ -5,12 +5,19 @@ var assert = require('assert');
 var should = require('should');
 var imageBuf = require('../lib/imageBuf');
 var binRequest = require('request').defaults({encoding: null });
+var express = require('express');
+
 
 describe('ImageBuf Integration',function(){
 
     before(function(){
+
+        this.remoteServer = express();
+        this.remoteServer.use(express.static('test'));
+        this.remoteServer.listen(1338);
+
         var options={
-            remotePath:'http://s3.amazonaws.com/ellen.wang',
+            remotePath:'http://127.0.0.1:1338',
             portNumber:'1337',
             memoryCacheSize:'10MB',
             resizeWidth:'800'
@@ -27,24 +34,35 @@ describe('ImageBuf Integration',function(){
         this.timeout(5000);
 
         it("First Request", function(done){
-            binRequest('http://127.0.0.1:1337/2015/dec/birthday/DSC_0002.JPG', function (error, response, body) {
+            binRequest('http://127.0.0.1:1337/TestImage.JPG', function (error, response, body) {
                 console.log('Status:' + response.statusCode);
                 console.log(error);
                 console.log(body.length);
                 response.statusCode.should.equal(200);
                 assert(body.length!=0)
-                body.length.should.equal(4994102);
+                body.length.should.equal(4726121);
                 done();
             });
         });
 
         it("Second Request: etag not used ", function(done){
             console.log("Before the 2nd ");
-            binRequest('http://127.0.0.1:1337/2015/dec/birthday/DSC_0002.JPG', function (error, response, body) {
+            binRequest('http://127.0.0.1:1337/TestImage.JPG', function (error, response, body) {
                 console.log('Status:' + response.statusCode);
                 response.statusCode.should.equal(200);
                 console.log(body.length);
                 body.length.should.not.equal(0);
+                done();
+            });
+        });
+
+        it("File does not exist ", function(done){
+            console.log("Before the 2nd ");
+            binRequest('http://127.0.0.1:1337/TestImage_does_not_exist.JPG', function (error, response, body) {
+                console.log('Status:' + response.statusCode);
+                response.statusCode.should.equal(404);
+                console.log(body.length);
+                body.length.should.equal(0);
                 done();
             });
         });

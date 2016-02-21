@@ -2,7 +2,6 @@
  * Created by Yefu on 2/20/2016.
  */
 
-
 var assert = require('assert');
 var should = require('should');
 var imageBufUtils = require('../lib/imageBufUtils');
