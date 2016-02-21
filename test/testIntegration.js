@@ -68,7 +68,7 @@ describe('ImageBuf Integration with no resizing',function(){
     });
 });
 
-describe('ImageBuf Integration with resizing',function(){
+describe('ImageBuf Integration with resizing',function(done){
     before(function(){
         this.remoteServer = express();
         this.remoteServer.use(express.static('test'));
@@ -80,7 +80,7 @@ describe('ImageBuf Integration with resizing',function(){
             memoryCacheSize:'10MB',
             resizeWidth:'800'
         };
-        this.server = new imageBuf(options);
+        this.server = new imageBuf(options, done);
     });
 
     after(function(){
