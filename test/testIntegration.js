@@ -72,10 +72,10 @@ describe('ImageBuf Integration with resizing',function(done){
     before(function(){
         this.remoteServer = express();
         this.remoteServer.use(express.static('test'));
-        this.remoteServerCloseHandle = this.remoteServer.listen(1338);
+        this.remoteServerCloseHandle = this.remoteServer.listen(1339);
 
         var options={
-            remotePath:'http://127.0.0.1:1338',
+            remotePath:'http://127.0.0.1:1339',
             portNumber:'1336',
             memoryCacheSize:'10MB',
             resizeWidth:'800'
