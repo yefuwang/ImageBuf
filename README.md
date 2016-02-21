@@ -46,7 +46,7 @@ nodejs app.js OPTIONS
 ##Requirements on Node.js
 
 ImageBuf requires node.js version 0.10 or later.Version 0.6 and 0.8 do not pass my unit tests.
-For all tested versions, click [![Build Status](https://travis-ci.org/yefuwang/ImageBuf.svg?branch=master)](https://travis-ci.org/yefuwang/ImageBuf).Generally, the latest version of node.js will work.
+For all tested versions, click this icon: [![Build Status](https://travis-ci.org/yefuwang/ImageBuf.svg?branch=master)](https://travis-ci.org/yefuwang/ImageBuf).Generally, the latest version of node.js will work.
 
 ##Design
 
