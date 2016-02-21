@@ -8,8 +8,8 @@ var binRequest = require('request').defaults({encoding: null });
 var express = require('express');
 
 
-describe('ImageBuf Integration with no resizing',function(done){
-    before(function(){
+describe('ImageBuf Integration with no resizing',function(){
+    before(function(done){
         this.remoteServer = express();
         this.remoteServer.use(express.static('test'));
         this.remoteServerCloseHandle = this.remoteServer.listen(1338);
@@ -68,8 +68,8 @@ describe('ImageBuf Integration with no resizing',function(done){
     });
 });
 
-describe('ImageBuf Integration with resizing',function(done){
-    before(function(){
+describe('ImageBuf Integration with resizing',function(){
+    before(function(done){
         this.remoteServer = express();
         this.remoteServer.use(express.static('test'));
         this.remoteServerCloseHandle = this.remoteServer.listen(1339);

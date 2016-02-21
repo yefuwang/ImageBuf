@@ -128,8 +128,8 @@
       <file leaf-file-name="testIntegration.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/testIntegration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79128855">
-              <caret line="101" column="48" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.6896552">
+              <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -707,7 +707,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456076585801</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="locally hosted automatic integration test (mocha)">
+      <created>1456076818660</created>
+      <option name="number" value="00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1456076818660</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1176,8 +1182,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/testIntegration.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79128855">
-          <caret line="101" column="48" selection-start-line="101" selection-start-column="48" selection-end-line="101" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.6896552">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>
