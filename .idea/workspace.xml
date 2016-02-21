@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a6a3f44-7c12-4a8b-80e1-c422645c97b4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test/TestImage.JPG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/testImageBufUtils.js" afterPath="$PROJECT_DIR$/test/testImageBufUtils.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/imageMagicFilter.js" afterPath="$PROJECT_DIR$/lib/imageMagicFilter.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/testIntegration.js" afterPath="$PROJECT_DIR$/test/testIntegration.js" />
     </list>
     <ignored path="ImageBuf.iws" />
@@ -82,6 +80,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="imageMagicFilter.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/imageMagicFilter.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="testCacheServer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/testCacheServer.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -109,8 +117,8 @@
       <file leaf-file-name="testIntegration.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/testIntegration.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.79310346">
-              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.44827586">
+              <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
               </folding>
@@ -150,7 +158,6 @@
         <option value="$PROJECT_DIR$/node_modules/coveralls/.travis.yml" />
         <option value="$PROJECT_DIR$/.coveralls.yml" />
         <option value="$PROJECT_DIR$/node_modules/lru-cache/lru-cache.js" />
-        <option value="$PROJECT_DIR$/lib/imageMagicFilter.js" />
         <option value="$PROJECT_DIR$/lib/localFileServer.js" />
         <option value="$PROJECT_DIR$/test/testCacheServer.js" />
         <option value="$PROJECT_DIR$/README.md" />
@@ -162,6 +169,7 @@
         <option value="$PROJECT_DIR$/lib/remoteFileServer.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/test/testImageBufUtils.js" />
+        <option value="$PROJECT_DIR$/lib/imageMagicFilter.js" />
         <option value="$PROJECT_DIR$/test/testIntegration.js" />
       </list>
     </option>
@@ -656,7 +664,13 @@
       <option name="project" value="LOCAL" />
       <updated>1456062269072</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="locally hosted automatic integration test (mocha)">
+      <created>1456063487106</created>
+      <option name="number" value="00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1456063487106</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -707,7 +721,8 @@
     <MESSAGE value="etag / 304 support" />
     <MESSAGE value="Memory reduction" />
     <MESSAGE value="Add integration test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add integration test" />
+    <MESSAGE value="locally hosted automatic integration test (mocha)" />
+    <option name="LAST_COMMIT_MESSAGE" value="locally hosted automatic integration test (mocha)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1002,14 +1017,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/imageMagicFilter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="50" selection-start-line="15" selection-start-column="50" selection-end-line="15" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1097,13 +1104,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testImageBufUtils.js">
+    <entry file="file://$PROJECT_DIR$/test/TestImage.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/imageMagicFilter.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
-          </folding>
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1117,15 +1127,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/TestImage.JPG">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/test/testImageBufUtils.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/testIntegration.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.79310346">
-          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.44827586">
+          <caret line="16" column="39" selection-start-line="16" selection-start-column="39" selection-end-line="16" selection-end-column="39" />
           <folding>
             <element signature="e#0#40#0" expanded="false" />
           </folding>

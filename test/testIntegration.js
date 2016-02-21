@@ -19,8 +19,8 @@ describe('ImageBuf Integration',function(){
         var options={
             remotePath:'http://127.0.0.1:1338',
             portNumber:'1337',
-            memoryCacheSize:'10MB',
-            resizeWidth:'800'
+            memoryCacheSize:'10MB'
+            //resizeWidth:'800'
         };
         this.server = new imageBuf(options);
     });
