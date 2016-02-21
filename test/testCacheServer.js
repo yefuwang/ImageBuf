@@ -26,7 +26,7 @@ describe('CacheServer',function(){
                 code.should.equal(200);
             },end:function(content, type){
                 content.should.equal("Mocked Object Success");
-            } });
+            },setHeader:function(){} });
 
             cacheServer._lastReqFromMemory.should.equal(false);
 
@@ -36,7 +36,8 @@ describe('CacheServer',function(){
                 code.should.equal(200);
             },end:function(content, type){
                 content.should.equal("Mocked Object Success");
-            } });
+            }, setHeader:function(){} }
+            );
 
             cacheServer._lastReqFromMemory.should.equal(false);
         });
@@ -50,7 +51,7 @@ describe('CacheServer',function(){
                 code.should.equal(200);
             },end:function(content, type){
                 content.should.equal("Mocked Object Success");
-            } });
+            },setHeader:function(){} });
 
             cacheServer._lastReqFromMemory.should.equal(false);
 
@@ -59,7 +60,7 @@ describe('CacheServer',function(){
                 code.should.equal(200);
             },end:function(content, type){
                 content.should.equal("Mocked Object Success");
-            } });
+            },setHeader:function(){} });
 
             cacheServer._lastReqFromMemory.should.equal(true);
 
@@ -67,39 +68,39 @@ describe('CacheServer',function(){
                 code.should.equal(200);
             },end:function(content, type){
                 content.should.equal("Mocked Object Success");
-            } });
+            },setHeader:function(){} });
             cacheServer.serveRequest({url:'http://fake.com/fake4.jpg'}, { writeHead:function(code, headObj){
                 code.should.equal(200);
             },end:function(content, type){
                 content.should.equal("Mocked Object Success");
-            } });
+            },setHeader:function(){} });
             cacheServer.serveRequest({url:'http://fake.com/fake5.jpg'}, { writeHead:function(code, headObj){
                 code.should.equal(200);
             },end:function(content, type){
                 content.should.equal("Mocked Object Success");
-            } });
+            },setHeader:function(){} });
             cacheServer.serveRequest({url:'http://fake.com/fake3.jpg'}, { writeHead:function(code, headObj){
                 code.should.equal(200);
             },end:function(content, type){
                 content.should.equal("Mocked Object Success");
-            } });
+            },setHeader:function(){} });
             cacheServer.serveRequest({url:'http://fake.com/fake4.jpg'}, { writeHead:function(code, headObj){
                 code.should.equal(200);
             },end:function(content, type){
                 content.should.equal("Mocked Object Success");
-            } });
+            },setHeader:function(){} });
             cacheServer.serveRequest({url:'http://fake.com/fake5.jpg'}, { writeHead:function(code, headObj){
                 code.should.equal(200);
             },end:function(content, type){
                 content.should.equal("Mocked Object Success");
-            } });
+            },setHeader:function(){} });
 
             cacheServer.serveRequest({url:'http://fake.com/fake2.jpg'}, { writeHead:function(code, headObj){
                 code.should.equal(200);
 
             },end:function(content, type){
                 content.should.equal("Mocked Object Success");
-            } });
+            },setHeader:function(){} });
 
             cacheServer._lastReqFromMemory.should.equal(false);
 
