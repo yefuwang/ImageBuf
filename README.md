@@ -25,15 +25,15 @@ ImageBuf uses graphicsmagick for image resizing. If graphicsmagick is not instal
 
 sudo apt-get install graphicsmagick
 
-For windows,install graphicsmagick and make sure you have the executable of gm on your PATH. Verify by running gm in your command line.
+For windows,install [graphicsmagick](http://www.graphicsmagick.org/) and make sure you have the executable of gm on your PATH. Verify by running gm in your command line.
 
 Run ImageBuf under node.js:
-
-node.js app.js OPTIONS
+<pre>
+nodejs app.js OPTIONS
 
  Required Options:
 
-    --portNumber [portNumber]
+    --portNumber [portNumber]     The port number that the web server will be hosted on.
 
     --remotePath [remote_path]
 
@@ -45,6 +45,7 @@ node.js app.js OPTIONS
 
     --logFile [Path]
 
-    --memoryCacheSize [Size]    The amount of memory that ImageBuf uses as a in-memory cache.
-                                The format can be: 1024, 1000KB. 128MB, etc.Default: 0
+    --memoryCacheSize [Size]     The amount of memory that ImageBuf uses as a in-memory cache.
+                                 The format can be: 1024, 1000KB. 128MB, etc.Default: 0
 
+</pre>
