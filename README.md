@@ -32,17 +32,13 @@ nodejs app.js OPTIONS
  Required Options:
 
     --portNumber [portNumber]     The port number that the web server will be hosted on.
-
     --remotePath [remote_path]
 
  Optional options
 
     --resizeWidth  [width]
-
     --resizeHeight [height]
-
     --logFile [Path]
-
     --memoryCacheSize [Size]     The amount of memory that ImageBuf uses as a in-memory cache.
                                  The format can be: 1024, 1000KB. 128MB, etc.Default: 0
 </pre>
@@ -50,7 +46,7 @@ nodejs app.js OPTIONS
 ##Requirements on Node.js
 
 ImageBuf requires node.js version 0.10 or later.Version 0.6 and 0.8 do not pass my unit tests.
-For all tested versions, see .travis.yml in the source code.Generally, the latest version of node.js will work.
+For all tested versions, click this icon: [![Build Status](https://travis-ci.org/yefuwang/ImageBuf.svg?branch=master)](https://travis-ci.org/yefuwang/ImageBuf).Generally, the latest version of node.js will work.
 
 ##Design
 
