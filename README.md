@@ -45,8 +45,12 @@ nodejs app.js OPTIONS
 
     --memoryCacheSize [Size]     The amount of memory that ImageBuf uses as a in-memory cache.
                                  The format can be: 1024, 1000KB. 128MB, etc.Default: 0
-
 </pre>
+
+##Requirements on Node.js
+
+ImageBuf requires node.js version 0.10 or later.Version 0.6 and 0.8 do not pass my unit tests.
+For all tested versions, see .travis.yml in the source code.Generally, the latest version of node.js will work.
 
 ##Design
 
