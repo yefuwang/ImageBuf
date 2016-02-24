@@ -9,13 +9,23 @@ ImageBug accepts images from an external repository (e.g., amazon S3), caches it
 
 <img src="https://s3.amazonaws.com/wangyefucom/imagebuf.jpg" height="300" />
 
-## Typical Usage ImageBuf
+## Why Using ImageBuf? 
+
+### An example
 
 As a father I take a lot of photos of my daughter. I store them in Amazon S3 with full size. I then run ImageBuf on my tiny instance of Amazon EC2. When my daughter's WordPress requests an image, my ImageBuf will automatically download it from Amazon S3, resize it, and serve it back. The resized image will be cached.
 
 I do not want to store every photo locally (in my EC2 instance) becasue it incures a cost, and will need some effort to maintain it. I do not want to store resized images in Amazon S3 either, due to the maintaince effort. 
 
 ImageBuf makes my photo sharing cheap and easy to maintain. Just drop the pics from my camera to Amazon S3, then I automatically get two URLs: a full-sized images through my S3 (https://s3.amazonaws.com/your_bucket/your_image.jpg), plus a resized image (http://your_domain/your_image.jpg). 
+
+###Advantages over directly serving images
+
+Compared to directly serving from a local storage, using ImageBuf has these advantages:
+
+* Lower cost. External storages like Amazon S3 is typically cheaper than local storage systems like Amazon EBS. Also, as most images will be served from the in-memory cache, the disk IO operations will be significantly reduced while Amazon AWS charges for disk IO operations. 
+* Safe. You server will not have write permision to the external storage. You will not expose the address of your external server to the world. 
+* Easier to maintain. You do not need to worry about resizing your images for the web manually. 
 
 ## Usage
 
