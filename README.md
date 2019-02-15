@@ -13,25 +13,24 @@ ImageBug accepts images from an external repository (e.g., amazon S3), caches it
 
 ### An example
 
-As a father I take a lot of photos of my daughter. I store them in Amazon S3 with full size. I then run ImageBuf on my tiny instance of Amazon EC2. When my daughter's WordPress requests an image, my ImageBuf will automatically download it from Amazon S3, resize it, and serve it back. The resized image will be cached.
+As a father, I take a lot of photos of my daughter. I store them in Amazon S3 with full size. I then run ImageBuf on my tiny instance of Amazon EC2. When my daughter's WordPress requests an image, my ImageBuf will automatically download it from Amazon S3, resize it, and serve it back. The resized image will be cached.
 
-I do not want to store every photo locally (in my EC2 instance) becasue it incures a cost, and will need some effort to maintain it. I do not want to store resized images in Amazon S3 either, due to the maintaince effort. 
+I do not want to store every photo locally (in my EC2 instance) because it incures a cost, and will need some effort to maintain it. I do not want to store resized images in Amazon S3 either, due to the maintenance effort.
 
-ImageBuf makes my photo sharing cheap and easy to maintain. Just drop the pics from my camera to Amazon S3, then I automatically get two URLs: a full-sized images through my S3 (https://s3.amazonaws.com/your_bucket/your_image.jpg), plus a resized image (http://your_domain/your_image.jpg). 
+ImageBuf makes my photo sharing cheap and easy to maintain. Just drop the pics from my camera to Amazon S3, then I automatically get two URLs: a full-sized image through my S3 (https://s3.amazonaws.com/your_bucket/your_image.jpg), plus a resized image (http://your_domain/your_image.jpg).
 
-### Advantages over directly serving images
+Advantages over directly serving images
+Compared to directly serving from local storage, using ImageBuf has these advantages:
 
-Compared to directly serving from a local storage, using ImageBuf has these advantages:
-
-* Lower cost. External storages like Amazon S3 is typically cheaper than local storage systems like Amazon EBS. Also, as most images will be served from the in-memory cache, the disk IO operations will be significantly reduced while Amazon AWS charges for disk IO operations. 
-* Safe. You server will not have write permision to the external storage. You will not expose the address of your external server to the world. 
-* Easier to maintain. You do not need to worry about resizing your images for the web manually. 
+* Lower cost. External storages like Amazon S3 is typically cheaper than local storage systems like Amazon EBS. Also, as most images will be served from the in-memory cache, the disk IO operations will be significantly reduced while Amazon AWS charges for disk IO operations.
+* Safe. Your server will not have write permissions to the external storage. You will not expose the address of your external server to the world.
+* Easier to maintain. You do not need to worry about resizing your images for the web manually.
 
 ## Usage
 
 ### Use with docker 
 
-The easuest way of using ImageBus is to run it with docker. A minimum image (54MB) is published at DockerHub as `reboot8/imagebuf`
+The easiest way of using ImageBus is to run it with docker. A minimum image (54MB) is published at DockerHub as `reboot8/imagebuf`
 
 Here is a quick example to use it with docker-compose:
 
@@ -95,8 +94,8 @@ nodejs app.js OPTIONS
 
 ## Requirements on Node.js
 
-ImageBuf requires node.js version 0.10 or later.Version 0.6 and 0.8 do not pass my unit tests.
-For all tested versions, click this icon: [![Build Status](https://travis-ci.org/yefuwang/ImageBuf.svg?branch=master)](https://travis-ci.org/yefuwang/ImageBuf).Generally, the latest version of node.js will work.
+ImageBuf requires node.js version 0.10 or later. 
+For all tested versions, click this icon: [![Build Status](https://travis-ci.org/yefuwang/ImageBuf.svg?branch=master)](https://travis-ci.org/yefuwang/ImageBuf). Generally, the latest version of node.js will work.
 
 ## Design
 
