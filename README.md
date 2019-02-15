@@ -19,7 +19,7 @@ I do not want to store every photo locally (in my EC2 instance) becasue it incur
 
 ImageBuf makes my photo sharing cheap and easy to maintain. Just drop the pics from my camera to Amazon S3, then I automatically get two URLs: a full-sized images through my S3 (https://s3.amazonaws.com/your_bucket/your_image.jpg), plus a resized image (http://your_domain/your_image.jpg). 
 
-###Advantages over directly serving images
+### Advantages over directly serving images
 
 Compared to directly serving from a local storage, using ImageBuf has these advantages:
 
@@ -28,6 +28,46 @@ Compared to directly serving from a local storage, using ImageBuf has these adva
 * Easier to maintain. You do not need to worry about resizing your images for the web manually. 
 
 ## Usage
+
+### Use with docker 
+
+The easuest way of using ImageBus is to run it with docker. A minimum image (54MB) is published at DockerHub as `reboot8/imagebuf`
+
+Here is a quick example to use it with docker-compose:
+
+```
+version: '3.4'
+
+services:
+  imagebuf-ellen:
+    image: reboot8/imagebuf
+    ports:
+      - "8081:1337"
+    environment:
+      - PORT_NUMBER=1337
+      - REMOTE_PATH=http://s3.amazonaws.com/ellen.wang
+      - RESIZE_WIDTH=800
+      - MEMORY_CACHE_SIZE=100MB
+```
+
+All parameters are controlled via envoriment variables:
+
+| Variable    | Required   | Description |
+| ----------- |------| ----------- |
+| PORT_NUMBER      | Yes  | The port number that the web server will be hosted on.       |
+| REMOTE_PATH   | Yes  | The remote path        |
+| RESIZE_WIDTH  | No   | If resize is needed, the output width in pixles |
+| RESIZE_HEIGHT  | No   | If resize is needed, the output width in pixles |
+| LOG_FILE | No | Path to the log file. Defaults to stdout|
+|MEMORY_CACHE_SIZE| No | The amount of memory that ImageBuf uses as a in-memory cache|
+
+Note:
+
+1. It is recommended to set only one of RESIZE_WIDTH or RESIZE_HEIGHT, so that the ratio of the image can be kept.
+2. MEMORY_CACHE_SIZE can be in the format of 1024, 1000KB. 128MB, etc.
+
+
+### Run without docker
 
 ImageBuf uses graphicsmagick for image resizing. If graphicsmagick is not installed correctly, resizing will be disabled. To install graphicsmagick on ubuntu, run:
 
@@ -53,16 +93,16 @@ nodejs app.js OPTIONS
                                  The format can be: 1024, 1000KB. 128MB, etc.Default: 0
 </pre>
 
-##Requirements on Node.js
+## Requirements on Node.js
 
 ImageBuf requires node.js version 0.10 or later.Version 0.6 and 0.8 do not pass my unit tests.
 For all tested versions, click this icon: [![Build Status](https://travis-ci.org/yefuwang/ImageBuf.svg?branch=master)](https://travis-ci.org/yefuwang/ImageBuf).Generally, the latest version of node.js will work.
 
-##Design
+## Design
 
 ImageBuf uses etag to help the caching of images.
 
-##Future work
+## Future work
 
-ImageBuf is still under development.All suggestions and comments are very much appreciated.
+ImageBuf is an active project. All suggestions and comments are very much appreciated.
 
